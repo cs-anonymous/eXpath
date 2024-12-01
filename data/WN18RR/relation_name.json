@@ -1,0 +1,12 @@
+{
+    "_hypernym": "word represents a broader category",
+    "_derivationally_related_form": "word derives from another form",
+    "_instance_hypernym": "word serves as a specific instance",
+    "_also_see": "word connects with another concept",
+    "_member_meronym": "word is part of a larger whole",
+    "_synset_domain_topic_of": "word belongs to a specific field of study",
+    "_has_part": "word consists of several components",
+    "_member_of_domain_usage": "word is used in a particular context",
+    "_member_of_domain_region": "word is associated with a geographic area",
+    "_verb_group": "words group together based on similar actions"
+}

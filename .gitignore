@@ -1,0 +1,25 @@
+### Jetbrains IDE
+__pycache__/
+.idea/
+
+### Kelpie paths not to add to git for the time being
+stored_models
+reproducibility_images
+reproducibility.pdf
+major_revision/
+
+### OS generated files 
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+output*
+*.log
+out*
+*.bac
+json*
+AnyBurlAttack
+stored_models

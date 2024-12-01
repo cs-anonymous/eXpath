@@ -1,0 +1,20 @@
+{
+    "_member_of_domain_topic": "topic has members",
+    "_has_part": "part has components",
+    "_synset_domain_usage_of": "synset has domain usage",
+    "_synset_domain_region_of": "synset has domain region",
+    "_member_of_domain_region": "region has members",
+    "_member_meronym": "member has parts",
+    "_part_of": "part constitutes whole",
+    "_verb_group": "group comprises verbs",
+    "_derivationally_related_form": "form is derivationally related",
+    "_instance_hypernym": "instance has hypernym",
+    "_instance_hyponym": "Instance is a type of hyponym",
+    "_similar_to": "Similar concepts are related",
+    "_hyponym": "Hyponym denotes a specific category",
+    "_also_see": "Related terms also see each other",
+    "_member_of_domain_usage": "Domain usage pertains to a member",
+    "_synset_domain_topic_of": "Synset domain categorizes topics",
+    "_member_holonym": "Holonym includes its members",
+    "_hypernym": "Hypernym serves as a broader category"
+}

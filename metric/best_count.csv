@@ -1,0 +1,5 @@
+,complex_FB15k,complex_FB15k-237,complex_WN18,complex_WN18RR,conve_FB15k,conve_FB15k-237,conve_WN18,conve_WN18RR,transe_FB15k,transe_FB15k-237,transe_WN18,transe_WN18RR,AVG
+eXpath()1,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+data_poisoning,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+k1,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+AnyBurlAttack,0,0,0,0,0,0,0,0,0,0,0,0,0.0

@@ -1,0 +1,215 @@
+# 注意yaml读取5e-2时会转换成字符串格式，需要特殊处理！！！
+
+complex_FB15k:
+  optimizer: Adagrad
+  dimension: 2000
+  # batch_size: 100
+  batch_size: 1000
+  # max_epochs: 200
+  max_epochs: 25
+  learning_rate: 0.01
+  reg: 2.5e-3
+  model_path: stored_models/ComplEx_FB15k.pt
+  facts_to_explain_path: input_facts/complex_fb15k_random.csv
+  time_per_epoch: 32
+  H@1: 0.723595
+  H@10: 0.888143
+  MRR: 0.784007
+  MR: 32.842342
+
+complex_WN18:
+  optimizer: Adagrad
+  dimension: 500
+  batch_size: 1000
+  max_epochs: 20
+  learning_rate: 0.1
+  reg: 5e-2
+  model_path: stored_models/ComplEx_WN18.pt
+  facts_to_explain_path: input_facts/complex_wn18_random.csv
+  time_per_epoch: 6
+  H@1: 0.943800
+  H@10: 0.960500
+  MRR: 0.949552
+  MR: 267.758200
+
+complex_FB15k-237:
+  optimizer: Adagrad
+  dimension: 1000
+  batch_size: 1000
+  max_epochs: 100
+  learning_rate: 0.1
+  reg: 5e-2
+  model_path: stored_models/ComplEx_FB15k-237.pt
+  facts_to_explain_path: input_facts/complex_fb15k237_random.csv
+  time_per_epoch: 8
+  H@1: 0.270473
+  H@10: 0.557510
+  MRR: 0.365220
+  MR: 148.691610
+
+complex_WN18RR:
+  optimizer: Adagrad
+  dimension: 500
+  # batch_size: 100
+  batch_size: 500
+  max_epochs: 100
+  learning_rate: 0.1
+  reg: 1e-1
+  valid: 20
+  model_path: stored_models/ComplEx_WN18RR.pt
+  facts_to_explain_path: input_facts/complex_wn18rr_random.csv
+  time_per_epoch: 5
+  H@1: 0.431876
+  H@10: 0.568922
+  MRR: 0.477617
+  MR: 3094.264518
+
+conve_FB15k:
+  # max_epochs: 1000
+  max_epochs: 40
+  # batch_size: 128
+  batch_size: 256
+  learning_rate: 0.003
+  dimension: 200
+  input_dropout: 0.2
+  hidden_dropout: 0.3
+  feature_map_dropout: 0.2
+  decay_rate: 0.995
+  valid: 10
+  model_path: stored_models/ConvE_FB15k.pt
+  facts_to_explain_path: input_facts/conve_fb15k_random.csv
+  time_per_epoch: 21
+  H@1: 0.426055
+  H@10: 0.712736
+  MRR: 0.528717
+  MR: 112.281898
+
+conve_WN18:
+  # max_epochs: 150
+  max_epochs: 50
+  batch_size: 128 ################### TODO: rerun
+  # batch_size: 512  #slower!
+  learning_rate: 0.003
+  dimension: 200
+  input_dropout: 0.2
+  hidden_dropout: 0.3
+  feature_map_dropout: 0.2
+  decay_rate: 0.995
+  valid: 10
+  model_path: stored_models/ConvE_WN18.pt 
+  facts_to_explain_path: input_facts/conve_wn18_random.csv
+  time_per_epoch: 38
+  H@1: 0.644100
+  H@10: 0.949000
+  MRR: 0.768923
+  MR: 480.517600
+
+conve_FB15k-237:
+  max_epochs: 60
+  batch_size: 128
+  learning_rate: 0.003
+  dimension: 200
+  input_dropout: 0.2
+  hidden_dropout: 0.3
+  feature_map_dropout: 0.2
+  decay_rate: 0.995
+  # valid: 10
+  valid: 20
+  model_path: stored_models/ConvE_FB15k-237.pt
+  facts_to_explain_path: input_facts/conve_fb15k237_random.csv
+  time_per_epoch: 18
+  H@1: 0.233851
+  H@10: 0.489006
+  MRR: 0.319163
+  MR: 262.499609
+
+conve_WN18RR:
+  # max_epochs: 90
+  max_epochs: 40
+  batch_size: 128
+  learning_rate: 0.003
+  dimension: 200
+  input_dropout: 0.2
+  hidden_dropout: 0.3
+  feature_map_dropout: 0.2
+  decay_rate: 0.995
+  valid: 20
+  model_path: stored_models/ConvE_WN18RR.pt 
+  facts_to_explain_path: input_facts/conve_wn18rr_random.csv
+  time_per_epoch: 22
+  H@1: 0.272176
+  H@10: 0.453255
+  MRR: 0.340072
+  MR: 5318.215858
+
+transe_FB15k:
+  max_epochs: 200
+  batch_size: 2048
+  learning_rate: 0.00003
+  dimension: 200
+  negative_samples_ratio: 5
+  regularizer_weight: 2.0
+  margin: 2
+  valid: 20
+  facts_to_explain_path: input_facts/transe_fb15k_random.csv
+  model_path: stored_models/TransE_FB15k.pt
+  time_per_epoch: 2
+  H@1: 0.258096
+  H@10: 0.648059
+  MRR: 0.400729
+  MR: 67.830653
+
+transe_WN18:
+  max_epochs: 250
+  batch_size: 2048
+  learning_rate: 0.0002
+  dimension: 50
+  negative_samples_ratio: 5
+  regularizer_weight: 0
+  margin: 2
+  # valid: 10
+  valid: 20
+  model_path: stored_models/TransE_WN18.pt
+  facts_to_explain_path: input_facts/transe_wn18_random.csv
+  time_per_epoch: 1
+  H@1: 0.338100
+  H@10: 0.833800
+  MRR: 0.533401
+  MR: 392.961300
+
+transe_FB15k-237:
+  max_epochs: 100
+  batch_size: 2048
+  learning_rate: 0.0004
+  dimension: 50
+  negative_samples_ratio: 15
+  regularizer_weight: 1.0
+  margin: 5
+  # valid: 10
+  valid: 20
+  facts_to_explain_path: input_facts/transe_fb15k237_random.csv
+  model_path: stored_models/TransE_FB15k-237.pt
+  time_per_epoch: 1
+  H@1: 0.136006
+  H@10: 0.355223
+  MRR: 0.209547
+  MR: 311.309147
+
+transe_WN18RR:
+  max_epochs: 200
+  batch_size: 2048
+  learning_rate: 0.0001
+  dimension: 50
+  negative_samples_ratio: 5
+  regularizer_weight: 50.0
+  margin: 2
+  valid: 20
+  model_path: stored_models/TransE_WN18RR.pt
+  facts_to_explain_path: input_facts/transe_wn18rr_random.csv
+  time_per_epoch: 0.5
+  H@1: 0.033982
+  H@10: 0.407945
+  MRR: 0.181051
+  MR: 5877.968251
+
+
