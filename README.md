@@ -63,6 +63,6 @@ eXpath is designed to support any Link Prediction model that relies on embedding
 
 In our experiments, we evaluate three distinct models: **ComplEx**, **ConvE**, and **TransE**, each with different underlying architectures. Implementations for these models are included in this repository. We generate explanations for their predictions on four widely-used datasets: **FB15k**, **WN18**, **FB15k-237**, and **WN18RR**. The training, validation, and test sets for these datasets are provided in the `data` folder.
 
-To ensure reproducibility, we have made the trained models available through [FigShare](https://figshare.com/s/ede27f3440fe742de60b). After downloading the `stored_models.tar.gz` and `out.tar.gz` files, users can extract them to obtain the `stored_models` and `out` directories, respectively.
+To ensure reproducibility, we have made the trained models available through [FigShare](https://figshare.com/articles/software/models_and_experiment_results/28129862). After downloading the `stored_models.tar.gz` and `out.tar.gz` files, users can extract them to obtain the `stored_models` and `out` directories, respectively.
 
 The explanation generation results are stored in the `out` folder, while the models can be accessed in the `stored_models` folder.
