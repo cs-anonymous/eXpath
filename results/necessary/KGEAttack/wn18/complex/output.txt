@@ -1,0 +1,299 @@
+00168217;_derivationally_related_form;00364787
+00364787;_derivationally_related_form;00168217:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+07907161;_hypernym;07906284
+07906284;_hyponym;07907161:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+05945642;_hyponym;05837957
+05837957;_hypernym;05945642:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+11852255;_hypernym;11573660
+11573660;_hyponym;11852255:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+01834896;_hypernym;01834485
+01834485;_hyponym;01834896:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+09624980;_hyponym;10032524
+10032524;_hypernym;09624980:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+00119873;_hypernym;00109660
+00109660;_hyponym;00119873:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+00364297;_hypernym;02609764
+02609764;_hyponym;00364297:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+07006119;_member_of_domain_topic;01720491
+01720491;_synset_domain_topic_of;07006119:0.9253112033195021,1446 1338 0.9253112033195021 _member_of_domain_topic(X,Y) <= _synset_domain_topic_of(Y,X)
+
+13478525;_derivationally_related_form;00229280
+00229280;_derivationally_related_form;13478525:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+11705921;_member_meronym;11706325
+11706325;_member_holonym;11705921:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)
+
+11579418;_hyponym;12670558
+12670558;_hypernym;11579418:0.9508771929824561,285 271 0.9508771929824561 _hyponym(11579418,Y) <= _hypernym(Y,11579418)
+
+01864707;_hyponym;02475821
+02475821;_hypernym;01864707:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+02613960;_member_meronym;02614288
+02614288;_member_holonym;02613960:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)
+
+00486018;_derivationally_related_form;00211593
+00211593;_derivationally_related_form;00486018:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+05891572;_derivationally_related_form;00708376
+00708376;_derivationally_related_form;05891572:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+13649268;_hyponym;13659943
+13659943;_hypernym;13649268:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+01476483;_hyponym;01127215
+01127215;_hypernym;01476483:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+01031256;_derivationally_related_form;00318186
+00318186;_derivationally_related_form;01031256:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+06756831;_derivationally_related_form;00835506
+00835506;_derivationally_related_form;06756831:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+12052630;_member_holonym;12039743
+12039743;_member_meronym;12052630:0.9305,2000 1861 0.9305 _member_holonym(X,Y) <= _member_meronym(Y,X)
+
+13100156;_hyponym;12766595
+12766595;_hypernym;13100156:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+02170269;_member_meronym;02170400
+02170400;_member_holonym;02170269:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)
+
+02454119;_member_meronym;02455310
+02455310;_member_holonym;02454119:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)
+
+00966869;_derivationally_related_form;02344568
+02344568;_derivationally_related_form;00966869:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02468617;_hypernym;05235879
+05235879;_hyponym;02468617:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+01920698;_synset_domain_topic_of;00523513
+00523513;_member_of_domain_topic;01920698:0.935535858178888,1241 1161 0.935535858178888 _synset_domain_topic_of(X,Y) <= _member_of_domain_topic(Y,X)
+
+13773725;_hypernym;13760316
+13760316;_hyponym;13773725:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+01936391;_member_holonym;01936219
+01936219;_member_meronym;01936391:0.9305,2000 1861 0.9305 _member_holonym(X,Y) <= _member_meronym(Y,X)
+
+01939174;_derivationally_related_form;00447073
+00447073;_derivationally_related_form;01939174:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+14545045;_derivationally_related_form;03054551
+03054551;_derivationally_related_form;14545045:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+13108841;_hyponym;11653904
+11653904;_hypernym;13108841:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+08062623;_derivationally_related_form;00967625
+01745722;_derivationally_related_form;08062623:0.5,10 5 0.5 _derivationally_related_form(X,00967625) <= _derivationally_related_form(01745722,X)
+
+01938850;_hyponym;01949684
+01949684;_hypernym;01938850:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+12425281;_hyponym;12468243
+12468243;_hypernym;12425281:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+00334509;_hypernym;00331950
+00331950;_hyponym;00334509:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+00826509;_hyponym;00842772
+00842772;_hypernym;00826509:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+03401721;_part_of;03791235
+03791235;_has_part;03401721:0.926,2000 1852 0.926 _part_of(X,Y) <= _has_part(Y,X)
+
+02190632;_hypernym;02191106
+02191106;_hyponym;02190632:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+01083645;_hypernym;01083077
+01083077;_hyponym;01083645:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+00456596;_verb_group;00456740
+00456740;_verb_group;00456596:0.9303882195448461,747 695 0.9303882195448461 _verb_group(X,Y) <= _verb_group(Y,X)
+
+01004072;_hypernym;00383606
+00383606;_hyponym;01004072:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+01185304;_derivationally_related_form;07575076
+07575076;_derivationally_related_form;01185304:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01015244;_derivationally_related_form;05823932
+05823932;_derivationally_related_form;01015244:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+05867413;_hyponym;15257692
+15257692;_hypernym;05867413:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+01887576;_hyponym;01936753
+01936753;_hypernym;01887576:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+10100761;_hyponym;09931165
+09931165;_hypernym;10100761:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+10034201;_hyponym;10712690
+10712690;_hypernym;10034201:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+05418717;_hyponym;05371663
+05371663;_hypernym;05418717:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+11708181;_member_meronym;11708442
+11708442;_member_holonym;11708181:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)
+
+10770059;_hyponym;10092299
+10092299;_hypernym;10770059:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+00900070;_derivationally_related_form;00836236
+00836236;_derivationally_related_form;00900070:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+08698379;_instance_hyponym;08777544
+08777544;_instance_hypernym;08698379:0.932956381260097,1238 1155 0.932956381260097 _instance_hyponym(X,Y) <= _instance_hypernym(Y,X)
+
+00646833;_hyponym;01116466
+01116466;_hypernym;00646833:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+01424607;_member_meronym;01425076
+01425076;_member_holonym;01424607:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)
+
+01643092;_member_meronym;01643255
+01643255;_member_holonym;01643092:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)
+
+10112591;_hyponym;09877951
+09877951;_hypernym;10112591:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+00471277;_hypernym;00557588
+00557588;_hyponym;00471277:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+00467719;_hyponym;00476389
+00476389;_hypernym;00467719:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+08778061;_member_meronym;09705124
+09705124;_member_holonym;08778061:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)
+
+10547145;_instance_hyponym;10938363
+10938363;_instance_hypernym;10547145:0.932956381260097,1238 1155 0.932956381260097 _instance_hyponym(X,Y) <= _instance_hypernym(Y,X)
+
+10387196;_derivationally_related_form;04091839
+04091839;_derivationally_related_form;10387196:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+12150969;_hypernym;12150028
+12150028;_hyponym;12150969:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+00003826;_hypernym;00001740
+00001740;_hyponym;00003826:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+14866889;_hyponym;12167075
+12167075;_hypernym;14866889:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+00543233;_member_of_domain_topic;01728355
+01728355;_synset_domain_topic_of;00543233:0.9253112033195021,1446 1338 0.9253112033195021 _member_of_domain_topic(X,Y) <= _synset_domain_topic_of(Y,X)
+
+10466198;_derivationally_related_form;00901103
+00901103;_derivationally_related_form;10466198:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+10024362;_hyponym;09622745
+09622745;_hypernym;10024362:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+01175316;_hypernym;01173038
+01173038;_hyponym;01175316:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+13800801;_derivationally_related_form;00171127
+00171127;_derivationally_related_form;13800801:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02573704;_hypernym;02554730
+02554730;_hyponym;02573704:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+05640433;_hyponym;05643190
+05643190;_hypernym;05640433:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+01642437;_derivationally_related_form;00240184
+00240184;_derivationally_related_form;01642437:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00996969;_hyponym;00998604
+00998604;_hypernym;00996969:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+08199025;_member_of_domain_topic;00057306
+00057306;_synset_domain_topic_of;08199025:0.9410029498525073,339 319 0.9410029498525073 _member_of_domain_topic(08199025,Y) <= _synset_domain_topic_of(Y,08199025)
+
+10373801;_derivationally_related_form;02607909
+02607909;_derivationally_related_form;10373801:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+03040974;_derivationally_related_form;01392380
+01392380;_derivationally_related_form;03040974:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+07367548;_derivationally_related_form;00334186
+00334186;_derivationally_related_form;07367548:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+06714976;_derivationally_related_form;02457825
+02457825;_derivationally_related_form;06714976:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+14832193;_synset_domain_topic_of;06079620
+06079620;_member_of_domain_topic;14832193:0.935535858178888,1241 1161 0.935535858178888 _synset_domain_topic_of(X,Y) <= _member_of_domain_topic(Y,X)
+
+00775156;_derivationally_related_form;01170962
+01170962;_derivationally_related_form;00775156:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+09069862;_has_part;09070363
+09070363;_part_of;09069862:0.9306059036768514,1931 1797 0.9306059036768514 _has_part(X,Y) <= _part_of(Y,X)
+
+01745536;_derivationally_related_form;00652659
+00652659;_derivationally_related_form;01745536:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00422551;_hypernym;00421437
+00421437;_hyponym;00422551:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+02371811;_hypernym;02367363
+02367363;_hyponym;02371811:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+12060380;_member_holonym;12039743
+12039743;_member_meronym;12060380:0.9305,2000 1861 0.9305 _member_holonym(X,Y) <= _member_meronym(Y,X)
+
+08025497;_synset_domain_region_of;09039411
+09039411;_member_of_domain_region;08025497:0.9080675422138836,533 484 0.9080675422138836 _synset_domain_region_of(X,Y) <= _member_of_domain_region(Y,X)
+
+01503061;_hyponym;01789386
+01789386;_hypernym;01503061:0.9345,2000 1869 0.9345 _hyponym(X,Y) <= _hypernym(Y,X)
+
+10826352;_instance_hypernym;09989502
+09989502;_instance_hyponym;10826352:0.9239350912778904,986 911 0.9239350912778904 _instance_hypernym(X,Y) <= _instance_hyponym(Y,X)
+
+06284225;_hypernym;13809207
+13809207;_hyponym;06284225:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+09207288;_has_part;08848094
+08848094;_part_of;09207288:0.9306059036768514,1931 1797 0.9306059036768514 _has_part(X,Y) <= _part_of(Y,X)
+
+12112008;_hypernym;12102133
+12102133;_hyponym;12112008:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+09778783;_hypernym;10731244
+10731244;_hyponym;09778783:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+00785690;_derivationally_related_form;00881441
+00881441;_derivationally_related_form;00785690:0.94,2000 1880 0.94 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01985128;_hypernym;01976146
+01976146;_hyponym;01985128:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+06090869;_member_of_domain_topic;13590327
+13590327;_synset_domain_topic_of;06090869:0.9253112033195021,1446 1338 0.9253112033195021 _member_of_domain_topic(X,Y) <= _synset_domain_topic_of(Y,X)
+
+00464962;_also_see;01430847
+01430847;_also_see;00464962:0.5826210826210826,702 409 0.5826210826210826 _also_see(X,Y) <= _also_see(Y,X)
+
+12658846;_has_part;07770180
+07770180;_part_of;12658846:0.9306059036768514,1931 1797 0.9306059036768514 _has_part(X,Y) <= _part_of(Y,X)
+
+05571341;_hypernym;13911151
+13911151;_hyponym;05571341:0.935,2000 1870 0.935 _hypernym(X,Y) <= _hyponym(Y,X)
+
+02575766;_member_meronym;02580055
+02580055;_member_holonym;02575766:0.929,2000 1858 0.929 _member_meronym(X,Y) <= _member_holonym(Y,X)

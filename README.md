@@ -1,91 +1,68 @@
-<meta name="robots" content="noindex">
+# eXpath: Explaining Knowledge Graph Link Prediction with Ontological Closed Path Rules
 
-# eXpath
-
-<p align="center">
-<img width="50%" alt="eXpath_logo" src="https://user-images.githubusercontent.com/6909990/124291133-87fa5d80-db54-11eb-9db9-62ca9bd3fe6f.png">
-</p>
-
-eXpath is a post-hoc local explainability tool specifically tailored for embedding-based models that perform Link Prediction (LP) on Knowledge Graphs (KGs).
-
-eXpath provides a simple and effective interface to identify the most relevant facts to any prediction; intuitively, when explaining a _tail_ prediction <_h_, _r_, _t_>, eXpath identifies the smallest set of training facts mentioning _h_ that are instrumental to that prediction; analogously, a _head_ prediction <_h_, _r_, _t_> would be explained with a combination of the training facts mentioning _t_.
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://n.ye-sun.com/gallery/2024/202501031614036.png" alt="MOFexampleV3 (1)" style="max-width: 65%; height: auto;" />
+  <img src="https://n.ye-sun.com/gallery/2024/202501031616855.png" alt="ruleExampleV5 (1)" style="max-width: 35%; height: auto;" />
+</div>
 
 
-## eXpath Structure 
 
-eXpath is structured in a simple architecture based on the interaction of three modules. 
-When explaining a _tail_ prediction <_h_, _r_, _t_>:
+**eXpath** is a novel framework designed to enhance the interpretability of Link Prediction (LP) models in Knowledge Graphs (KG). While existing methods have successfully addressed LP in KGs, they often fall short in terms of providing semantically meaningful and human-interpretable explanations. eXpath tackles this issue by introducing path-based explanations that incorporate ontological closed path rules. This approach not only improves the efficiency and effectiveness of LP interpretation but also enables a more semantically rich understanding of the predicted links. More details can be found in the [arXiv paper](http://arxiv.org/abs/2412.04846).
 
-* a **Pre-Filter** narrows down the space of the candidate explanations (i.e., combinations of training facts mentioning _h_) by identifying and keeping only the most promising _h_ facts;
-* an **Explanation Builder** governs the search in the resulting space of the candidate explanations, i.e., the combinations of promising facts obtained from the Pre-Filtering step;
-* a **Relevance Engine** is used to estimate the *relevance* of any candidate explanation that the Explanation Builder wants to verify.
+### Key Features:
 
-The modules would work analogously to explain a _head_ prediction. The only module that requires awareness of how the original Link Prediction model is trained and implemented is the Relevance Engine. While theoreticaly specific connectors could be developed to to adapt to pre-existing models, in our research we have found it easier to make the Relevance Engine directly interact with eXpath-compatible implementations of the models.
+- **Path-based Explanations**: Unlike traditional methods that focus on single-hop explanations, eXpath detects multi-hop paths within KGs, providing causal and context-based relationships. For instance, in material KGs, eXpath can explain synthesized materials in a particular solvent by detecting relevant paths that capture deeper relationships between entities.
+- **Ontological Closed Path Rules**: eXpath integrates ontology theory to strengthen the semantics of path-based explanations. By leveraging closed path and property transition rules, eXpath ensures that the explanations are both semantically consistent and computationally efficient.
+- **Enhanced Explanation Quality**: Extensive experiments across benchmark datasets show that eXpath improves the quality of LP explanations by approximately 20%, while also reducing the explanation time by 61.4% compared to existing methods.
+- **Case Studies**: Case studies demonstrate how eXpath provides more meaningful explanations for real-world scenarios, such as material synthesis in a KG, highlighting its ability to uncover complex relationships that traditional methods fail to capture.
 
-<p align="center">
-<img width="60%" alt="eXpath_structure" src="https://user-images.githubusercontent.com/6909990/140399831-0c368ac2-7cf4-48dc-bb73-eaf00f7fde52.png">
-</p>
+### eXpath Structure: 
+
+![pipelineV6](https://n.ye-sun.com/gallery/2024/202501031615962.png)
+
+The eXpath framework consists of a three-stage process designed to generate path-based explanations for Knowledge Graph Link Prediction (KGLP) tasks. Below is a detailed overview of each component in the framework.
+
+**1. Path Aggregation Stage**
+
+In the path aggregation stage, eXpath identifies potential paths connecting the head entity hh to the tail entity tt in the knowledge graph (KG). A breadth-first search (BFS) is employed to extract paths up to a maximum length of 3 for interpretability. These paths are then transformed into "relation paths" by removing intermediate entities, reducing the total number of paths while preserving their semantic relevance. This abstraction ensures computational efficiency and focuses on the relationships rather than individual nodes.
+
+**2. Path-Based Rule Mining Stage**
+
+This stage focuses on extracting meaningful rules from the relation paths identified in the previous step. Two types of ontological rules are considered:
+
+- **Closed Path (CP) Rules:** These represent sequences of relations that form closed loops, connecting hh and tt via multiple intermediary relations.
+- **Property Transition (PT) Rules:** These describe attribute-based relationships between entities, such as correlations between specific properties.
+
+Relevant relation paths are selected using local optimization techniques, where the relevance scores of head and tail entities are computed. High-confidence CP and PT rules are retained based on their support (supp), standard confidence (SC), and head coverage (HC). These metrics evaluate how consistently a rule generalizes across the dataset.
+
+**3. Critical Fact Selection Stage**
+
+In the final stage, eXpath selects the most critical facts that contribute to the prediction explanation. Each candidate fact is scored based on the number and confidence of the rules it satisfies. The scoring process considers:
+
+- **Rule Count:** Facts that satisfy multiple rules receive higher scores.
+- **Confidence Weight:** Rules with higher confidence contribute more significantly to a fact’s score.
+- **Relation Relevance:** The importance of the relations linking the head and tail entities influences the fact’s final score.
+
+A "Noisy-OR" aggregation approach is used to compute the confidence degree (CD) of each fact, combining contributions from multiple rules. The highest-ranking facts form the final explanation.
 
 
-## eXpath Explanations 
+### Environment and Prerequisites
 
-Under the broad definition described above, eXpath supports two explanation scenarios: _necessary_ explanations and _sufficient_ explanations.
-
-* Given a _tail_ prediction <_h_, _r_, _t_>, a **necessary explanation** is the smallest set of training facts featuring _h_ such that, if we remove those facts from the training set and re-train the model from scratch, the model will not be able to identify _t_ as the top-ranking tail. In other words, a _necessary_ explanation is the smallest set of _h_ facts that have made possible for the model to pick the correct tail. An analogous definition can be derived for head predictions. 
-
-* Given a _tail_ prediction <_h_, _r_, _t_>, a **sufficient explanation** is the smallest set of training facts featuring _h_ such that, if we add those facts to random entities _c_ for which the model does not predict <_c_, _r_, _t_>, and we retrain the model from scratch, the model will start predicting <_c_, _r_, _t_> too. In other words, a _sufficient_ explanation is the smallest set of _h_ facts make it possible to extend the prediction to any other entity in the graph. An analogous definition can be derived for head predictions.
-
-
-## Environment and Prerequisites
-
-We have run all our experiments on an Ubuntu 18.04.5 environment using Python 3.7.7, CUDA Version: 11.2 and Driver Version: 460.73.01.
+We have run all our experiments on an Ubuntu 22.04 environment using Python 3.8.8, CUDA Version: 12.6 and Driver Version: 560.35.03.
 eXpath requires the following libraries: 
-- PyTorch (we used version 1.7.1);
+
+- PyTorch (we used version 2.4.1+cu124);
 - numpy;
+- pandas;
 - tqdm;
 - matplotlib;
-- reportlab;
 
-## Models and Datasets
+### Models and Datasets
 
-The formulation of eXpath supports any Link Prediction models based on embeddings. For the sake of simplicity in our implementation we focus on models that train on individual facts, as these are the vast majority in literature. Nonetheless, our implementation can be extended to identify fact-based explanations for other models too, e.g., models that leverage contextual information such as paths, types, or temporal data.
+eXpath is designed to support any Link Prediction model that relies on embeddings. For simplicity, our implementation focuses on models that train on individual facts, as these are the most commonly used in existing literature. However, eXpath is flexible and can be extended to generate fact-based explanations for models that incorporate contextual information, such as paths, types, or temporal data.
 
-We run our experiments on three models that rely on very different architectures: `ComplEx`, `ConvE` and `TransE`. 
-We provide implementations for these models in this repository.
-We explaining their predictions on the 5 best-established datasets in literature, i.e., `FB15k`, `WN18`, `FB15k-237`, `WN18RR` and `YAGO3-10`.
-The training, validation and test sets of such datasets are distributed in this repository in the `data` folder.
+In our experiments, we evaluate three distinct models: **ComplEx**, **ConvE**, and **TransE**, each with different underlying architectures. Implementations for these models are included in this repository. We generate explanations for their predictions on four widely-used datasets: **FB15k**, **WN18**, **FB15k-237**, and **WN18RR**. The training, validation, and test sets for these datasets are provided in the `data` folder.
 
+To ensure reproducibility, we have made the trained models available through [FigShare](https://figshare.com/s/ede27f3440fe742de60b). After downloading the `stored_models.tar.gz` and `out.tar.gz` files, users can extract them to obtain the `stored_models` and `out` directories, respectively.
 
-## Training and Testing Our Models
-
-For the sake of reproducibility, we make available through FigShare [the `.pt` model files](https://figshare.com/s/ede27f3440fe742de60b) resulting from training each system on each dataset. To run any of the experiments of our paper, the `.pt` files of all the trained models should bw downloaded and stored in a new folder `eXpath/stored_models`.
-
-For our models and datasets we use following hyperparameters, which we have found to lead to the best performances.
-
-<p align="center">
-<img width="90%" alt="hyperparams" src="https://user-images.githubusercontent.com/6909990/124291956-66e63c80-db55-11eb-9aa6-9892ee24afc2.png">
-</p>
-
-Note that: 
-* *D* is the embedding dimension (in the models we use, entity and relation embeddings always have same dimension);
-* *LR* is the learning rate;
-* *B* is the batch size;
-* *Ep* is the number of epochs;
-* *γ* is the margin in Pairwise Ranking Loss;
-* *N* is the number of negative samples generated for each positive training sample;
-* *Opt* is the used Optimizer (either `SGD`, or `Adagrad`, or `Adam`);
-* *Reg* is the regularizer weight;
-* *Decay* is the applied learning rate Decay;
-* *ω* is the size of the convolutional kernels;
-* *Drop* is the training dropout rate:
-    * *in* is the input dropout;
-    * *h* is the dropout applied after a hidden layer;
-    * *feat* is the feature dropout;
-
-After the models have been trained, their evaluation yields the following metrics:
-
-<p align="center">
-<img width="60%" alt="model_results" src="https://user-images.githubusercontent.com/6909990/135614004-db1cff3a-68db-447d-bb9c-3c7f05426957.png">
-</p>
-
-The training and evaluation processes can be launched with the commands reported in our [training and testing section](#training-and-testing-models-1).
+The explanation generation results are stored in the `out` folder, while the models can be accessed in the `stored_models` folder.

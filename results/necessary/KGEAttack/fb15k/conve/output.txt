@@ -1,0 +1,299 @@
+/m/0cwx_;/education/university/fraternities_and_sororities;/m/04m8fy
+/m/04m8fy;/education/fraternity_sorority/colleges_and_universities;/m/0cwx_:0.7966101694915254,118 94 0.7966101694915254 /education/university/fraternities_and_sororities(X,Y) <= /education/fraternity_sorority/colleges_and_universities(Y,X)
+
+/m/01yzhn;/film/actor/film./film/performance/film;/m/0y_yw
+/m/0y_yw;/film/film/starring./film/performance/actor;/m/01yzhn:0.809,2000 1618 0.809 /film/actor/film./film/performance/film(X,Y) <= /film/film/starring./film/performance/actor(Y,X)
+
+/m/019mdt;/sports/sports_team/roster./soccer/football_roster_position/position;/m/02sdk9v
+/m/02sdk9v;/sports/sports_position/players./sports/sports_team_roster/team;/m/019mdt:0.8367697594501718,582 487 0.8367697594501718 /sports/sports_team/roster./soccer/football_roster_position/position(X,/m/02sdk9v) <= /sports/sports_position/players./sports/sports_team_roster/team(/m/02sdk9v,X)
+
+/m/01w_10;/people/person/profession;/m/0kyk
+/m/0kyk;/people/profession/people_with_this_profession;/m/01w_10:0.8292682926829268,1230 1020 0.8292682926829268 /people/person/profession(X,Y) <= /people/profession/people_with_this_profession(Y,X)
+
+/m/01nz1q6;/film/person_or_entity_appearing_in_film/films./film/personal_film_appearance/film;/m/0bx_hnp
+/m/0bx_hnp;/film/film/personal_appearances./film/personal_film_appearance/person;/m/01nz1q6:0.7193877551020408,196 141 0.7193877551020408 /film/person_or_entity_appearing_in_film/films./film/personal_film_appearance/film(X,Y) <= /film/film/personal_appearances./film/personal_film_appearance/person(Y,X)
+
+/m/01yfm8;/people/person/profession;/m/09jwl
+/m/09jwl;/people/profession/people_with_this_profession;/m/01yfm8:0.8292682926829268,1230 1020 0.8292682926829268 /people/person/profession(X,Y) <= /people/profession/people_with_this_profession(Y,X)
+
+/m/02fqrf;/film/film/release_date_s./film/film_regional_release_date/film_release_region;/m/02vzc
+/m/02fqrf;/film/film/release_date_s./film/film_regional_release_date/film_release_region;/m/0chghy:0.7397260273972602,292 216 0.7397260273972602 /film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/02vzc) <= /film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/0chghy)
+
+/m/0n2sh;/location/hud_foreclosure_area/total_residential_addresses./measurement_unit/dated_integer/source;/m/0jbk9
+/m/0n2sh;/location/us_county/county_seat;/m/0yt73:0.8491620111731844,179 152 0.8491620111731844 /location/hud_foreclosure_area/total_residential_addresses./measurement_unit/dated_integer/source(X,Y) <= /location/us_county/county_seat(X,A), /location/hud_foreclosure_area/total_90_day_vacant_residential_addresses./measurement_unit/dated_integer/source(A,Y)
+
+/m/01y3v;/sports/sports_team/roster./american_football/football_historical_roster_position/player;/m/019y64
+/m/01y3v;/american_football/football_team/historical_roster./sports/sports_team_roster/player;/m/019y64:0.7894736842105263,38 30 0.7894736842105263 /sports/sports_team/roster./american_football/football_historical_roster_position/player(X,Y) <= /american_football/football_team/historical_roster./sports/sports_team_roster/player(X,Y)
+
+/m/0c3351;/media_common/netflix_genre/titles;/m/02c6d
+/m/02c6d;/media_common/netflix_title/netflix_genres;/m/0c3351:0.8227459016393442,976 803 0.8227459016393442 /media_common/netflix_genre/titles(X,Y) <= /media_common/netflix_title/netflix_genres(Y,X)
+
+/m/0bh8x1y;/film/film/film_festivals;/m/0gg7gsl
+/m/0gg7gsl;/film/film_festival_event/films;/m/0bh8x1y:0.8725490196078431,204 178 0.8725490196078431 /film/film/film_festivals(X,Y) <= /film/film_festival_event/films(Y,X)
+
+/m/0bj8m2;/film/film_genre/films_in_this_genre;/m/0fgrm
+/m/0fgrm;/film/film/genre;/m/0bj8m2:0.8035284683239775,1247 1002 0.8035284683239775 /film/film_genre/films_in_this_genre(X,Y) <= /film/film/genre(Y,X)
+
+/m/01mskc3;/common/topic/webpage./common/webpage/category;/m/08mbj5d
+/m/08mbj5d;/common/annotation_category/annotations./common/webpage/topic;/m/01mskc3:0.8336633663366336,1515 1263 0.8336633663366336 /common/topic/webpage./common/webpage/category(X,/m/08mbj5d) <= /common/annotation_category/annotations./common/webpage/topic(/m/08mbj5d,X)
+
+/m/050z2;/film/music_contributor/film;/m/035yn8
+/m/035yn8;/film/film/music;/m/050z2:0.8222543352601156,692 569 0.8222543352601156 /film/music_contributor/film(X,Y) <= /film/film/music(Y,X)
+
+/m/046rfv;/people/person/profession;/m/02hrh1q
+/m/02hrh1q;/people/profession/people_with_this_profession;/m/046rfv:0.8292682926829268,1230 1020 0.8292682926829268 /people/person/profession(X,Y) <= /people/profession/people_with_this_profession(Y,X)
+
+/m/0486tv;/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country;/m/01znc_
+/m/01znc_;/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport;/m/0486tv:0.8084832904884319,778 629 0.8084832904884319 /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country(X,Y) <= /olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(Y,X)
+
+/m/03676;/location/statistical_region/gdp_real./measurement_unit/adjusted_money_value/adjustment_currency;/m/09nqf
+/m/06z6r;/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country;/m/03676:0.8106060606060606,132 107 0.8106060606060606 /location/statistical_region/gdp_real./measurement_unit/adjusted_money_value/adjustment_currency(X,/m/09nqf) <= /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country(/m/06z6r,X)
+
+/m/01gkp1;/film/film/written_by;/m/01q_ph
+/m/01q_ph;/film/writer/film;/m/01gkp1:0.8093126385809313,451 365 0.8093126385809313 /film/film/written_by(X,Y) <= /film/writer/film(Y,X)
+
+/m/03d34x8;/award/award_winning_work/awards_won./award/award_honor/ceremony;/m/05c1t6z
+/m/05c1t6z;/award/award_ceremony/awards_presented./award/award_honor/honored_for;/m/03d34x8:0.815068493150685,584 476 0.815068493150685 /award/award_winning_work/awards_won./award/award_honor/ceremony(X,Y) <= /award/award_ceremony/awards_presented./award/award_honor/honored_for(Y,X)
+
+/m/0gvsh7l;/award/award_winning_work/awards_won./award/award_honor/award_winner;/m/07lwsz
+/m/07lwsz;/award/award_winner/awards_won./award/award_honor/honored_for;/m/0gvsh7l:0.8110181311018131,1434 1163 0.8110181311018131 /award/award_winning_work/awards_won./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/honored_for(Y,X)
+
+/m/06q8hf;/film/producer/films_executive_produced;/m/07h9gp
+/m/07h9gp;/film/film/executive_produced_by;/m/06q8hf:0.8129175946547884,449 365 0.8129175946547884 /film/producer/films_executive_produced(X,Y) <= /film/film/executive_produced_by(Y,X)
+
+/m/0b_fw;/film/person_or_entity_appearing_in_film/films./film/personal_film_appearance/type_of_appearance;/m/0147fv
+/m/0147fv;/film/personal_film_appearance_type/film_appearances./film/personal_film_appearance/person;/m/0b_fw:0.8083333333333333,240 194 0.8083333333333333 /film/person_or_entity_appearing_in_film/films./film/personal_film_appearance/type_of_appearance(X,Y) <= /film/personal_film_appearance_type/film_appearances./film/personal_film_appearance/person(Y,X)
+
+/m/05kwx2;/film/actor/film./film/performance/film;/m/02wk7b
+/m/02wk7b;/film/film/starring./film/performance/actor;/m/05kwx2:0.809,2000 1618 0.809 /film/actor/film./film/performance/film(X,Y) <= /film/film/starring./film/performance/actor(Y,X)
+
+/m/02wvfxl;/american_football/football_team/current_roster./american_football/football_roster_position/position;/m/02g_6j
+/m/02wvfxl;/sports/sports_team/roster./american_football/football_roster_position/position;/m/02g_6j:0.8364611260053619,373 312 0.8364611260053619 /american_football/football_team/current_roster./american_football/football_roster_position/position(X,Y) <= /sports/sports_team/roster./american_football/football_roster_position/position(X,Y)
+
+/m/011ywj;/film/film/release_date_s./film/film_regional_release_date/film_release_distribution_medium;/m/029j_
+/m/01z4y;/media_common/netflix_genre/titles;/m/011ywj:0.7644444444444445,225 172 0.7644444444444445 /film/film/release_date_s./film/film_regional_release_date/film_release_distribution_medium(X,/m/029j_) <= /media_common/netflix_genre/titles(/m/01z4y,X)
+
+/m/046fz5;/soccer/football_team/current_roster./sports/sports_team_roster/position;/m/02sdk9v
+/m/02vx4;/sports/sport/teams;/m/046fz5:0.8327272727272728,275 229 0.8327272727272728 /soccer/football_team/current_roster./sports/sports_team_roster/position(X,/m/02sdk9v) <= /sports/sport/teams(/m/02vx4,X)
+
+/m/02g_6x;/sports/sports_position/players./american_football/football_roster_position/team;/m/070xg
+/m/070xg;/sports/sports_team/roster./american_football/football_roster_position/position;/m/02g_6x:0.8065476190476191,336 271 0.8065476190476191 /sports/sports_position/players./american_football/football_roster_position/team(X,Y) <= /sports/sports_team/roster./american_football/football_roster_position/position(Y,X)
+
+/m/061dn_;/film/film_distributor/films_distributed./film/film_film_distributor_relationship/film;/m/0dgst_d
+/m/0dgst_d;/film/film/distributors./film/film_film_distributor_relationship/distributor;/m/061dn_:0.8075187969924812,665 537 0.8075187969924812 /film/film_distributor/films_distributed./film/film_film_distributor_relationship/film(X,Y) <= /film/film/distributors./film/film_film_distributor_relationship/distributor(Y,X)
+
+/m/069d71;/olympics/olympic_athlete/medals_won./olympics/olympic_medal_honor/olympics;/m/06sks6
+/m/06sks6;/olympics/olympic_games/medals_awarded./olympics/olympic_medal_honor/medalist;/m/069d71:0.7659574468085106,47 36 0.7659574468085106 /olympics/olympic_athlete/medals_won./olympics/olympic_medal_honor/olympics(X,Y) <= /olympics/olympic_games/medals_awarded./olympics/olympic_medal_honor/medalist(Y,X)
+
+/m/03nsm5x;/film/film/other_crew./film/film_crew_gig/film_crew_role;/m/02r96rf
+/m/01vx2h;/film/film_job/films_with_this_crew_job./film/film_crew_gig/film;/m/03nsm5x:0.7380952380952381,336 248 0.7380952380952381 /film/film/other_crew./film/film_crew_gig/film_crew_role(X,/m/02r96rf) <= /film/film_job/films_with_this_crew_job./film/film_crew_gig/film(/m/01vx2h,X)
+
+/m/02x4wb;/award/award_category/winners./award/award_honor/award_winner;/m/0c9l1
+/m/0c9l1;/award/award_winner/awards_won./award/award_honor/award;/m/02x4wb:0.8223552894211577,1503 1236 0.8223552894211577 /award/award_category/winners./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/award(Y,X)
+
+/m/0232lm;/music/artist/label;/m/01dtcb
+/m/01dtcb;/music/record_label/artist;/m/0232lm:0.817060637204522,973 795 0.817060637204522 /music/artist/label(X,Y) <= /music/record_label/artist(Y,X)
+
+/m/0xhtw;/music/genre/artists;/m/01wkmgb
+/m/01wkmgb;/music/artist/genre;/m/0xhtw:0.8506493506493507,154 131 0.8506493506493507 /music/genre/artists(/m/0xhtw,Y) <= /music/artist/genre(Y,/m/0xhtw)
+
+/m/057176;/award/award_winner/awards_won./award/award_honor/award_winner;/m/018yj6
+/m/018yj6;/award/award_winner/awards_won./award/award_honor/award_winner;/m/057176:0.8195,2000 1639 0.8195 /award/award_winner/awards_won./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/award_winner(Y,X)
+
+/m/01nd6v;/people/person/profession;/m/02hrh1q
+/m/02hrh1q;/people/profession/people_with_this_profession;/m/01nd6v:0.8292682926829268,1230 1020 0.8292682926829268 /people/person/profession(X,Y) <= /people/profession/people_with_this_profession(Y,X)
+
+/m/03n08b;/award/award_nominee/award_nominations./award/award_nomination/nominated_for;/m/01k0vq
+/m/01k0vq;/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee;/m/03n08b:0.839,2000 1678 0.839 /award/award_nominee/award_nominations./award/award_nomination/nominated_for(X,Y) <= /award/award_nominated_work/award_nominations./award/award_nomination/award_nominee(Y,X)
+
+/m/035qy;/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport;/m/07jbh
+/m/07jbh;/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country;/m/035qy:0.8771929824561403,57 50 0.8771929824561403 /olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(X,/m/07jbh) <= /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country(/m/07jbh,X)
+
+/m/02sddg;/baseball/baseball_position/players;/m/040j2_
+/m/040j2_;/baseball/baseball_player/position_s;/m/02sddg:0.7142857142857143,28 20 0.7142857142857143 /baseball/baseball_position/players(X,Y) <= /baseball/baseball_player/position_s(Y,X)
+
+/m/0gqxm;/award/award_category/winners./award/award_honor/ceremony;/m/0bzmt8
+/m/0bzmt8;/award/award_ceremony/awards_presented./award/award_honor/award;/m/0gqxm:0.8355263157894737,1064 889 0.8355263157894737 /award/award_category/winners./award/award_honor/ceremony(X,Y) <= /award/award_ceremony/awards_presented./award/award_honor/award(Y,X)
+
+/m/02bvt;/award/award_nominee/award_nominations./award/award_nomination/award_nominee;/m/03wh8pq
+/m/03wh8pq;/award/award_nominee/award_nominations./award/award_nomination/award_nominee;/m/02bvt:0.8145,2000 1629 0.8145 /award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,Y) <= /award/award_nominee/award_nominations./award/award_nomination/award_nominee(Y,X)
+
+/m/01j5ts;/film/actor/film./film/performance/film;/m/03kxj2
+/m/03kxj2;/film/film/starring./film/performance/actor;/m/01j5ts:0.809,2000 1618 0.809 /film/actor/film./film/performance/film(X,Y) <= /film/film/starring./film/performance/actor(Y,X)
+
+/m/0g60z;/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee;/m/022yb4
+/m/022yb4;/award/award_nominee/award_nominations./award/award_nomination/nominated_for;/m/0g60z:0.797,2000 1594 0.797 /award/award_nominated_work/award_nominations./award/award_nomination/award_nominee(X,Y) <= /award/award_nominee/award_nominations./award/award_nomination/nominated_for(Y,X)
+
+/m/027pfg;/film/film/release_date_s./film/film_regional_release_date/film_release_region;/m/0154j
+/m/027pfg;/film/film/release_date_s./film/film_regional_release_date/film_release_region;/m/01p1v:0.7829457364341085,129 101 0.7829457364341085 /film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/0154j) <= /film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/01p1v)
+
+/m/019tzd;/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country;/m/03_3d
+/m/03_3d;/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport;/m/019tzd:0.8084832904884319,778 629 0.8084832904884319 /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country(X,Y) <= /olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(Y,X)
+
+/m/0h7x;/olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport;/m/035d1m
+/m/035d1m;/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country;/m/0h7x:0.8077753779697624,926 748 0.8077753779697624 /olympics/olympic_participating_country/athletes./olympics/olympic_athlete_affiliation/sport(X,Y) <= /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country(Y,X)
+
+/m/02_01w;/celebrities/celebrity/sexual_relationships./celebrities/romantic_relationship/celebrity;/m/08b8vd
+/m/08b8vd;/celebrities/celebrity/sexual_relationships./celebrities/romantic_relationship/celebrity;/m/02_01w:0.7991071428571429,224 179 0.7991071428571429 /celebrities/celebrity/sexual_relationships./celebrities/romantic_relationship/celebrity(X,Y) <= /celebrities/celebrity/sexual_relationships./celebrities/romantic_relationship/celebrity(Y,X)
+
+/m/046qq;/people/person/spouse_s./people/marriage/type_of_union;/m/04ztj
+/m/04ztj;/people/marriage_union_type/unions_of_this_type./people/marriage/spouse;/m/046qq:0.8194945848375451,1385 1135 0.8194945848375451 /people/person/spouse_s./people/marriage/type_of_union(X,/m/04ztj) <= /people/marriage_union_type/unions_of_this_type./people/marriage/spouse(/m/04ztj,X)
+
+/m/01w4c9;/music/performance_role/regular_performances./music/group_membership/role;/m/0l14md
+/m/0l14md;/music/performance_role/regular_performances./music/group_membership/role;/m/01w4c9:0.8625,80 69 0.8625 /music/performance_role/regular_performances./music/group_membership/role(X,/m/0l14md) <= /music/performance_role/regular_performances./music/group_membership/role(/m/0l14md,X)
+
+/m/011zd3;/film/actor/film./film/performance/film;/m/09146g
+/m/09146g;/film/film/starring./film/performance/actor;/m/011zd3:0.809,2000 1618 0.809 /film/actor/film./film/performance/film(X,Y) <= /film/film/starring./film/performance/actor(Y,X)
+
+/m/01vhrz;/award/award_nominee/award_nominations./award/award_nomination/award_nominee;/m/067pl7
+/m/067pl7;/award/award_nominee/award_nominations./award/award_nomination/award_nominee;/m/01vhrz:0.8145,2000 1629 0.8145 /award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,Y) <= /award/award_nominee/award_nominations./award/award_nomination/award_nominee(Y,X)
+
+/m/04ddm4;/film/film/release_date_s./film/film_regional_release_date/film_release_region;/m/059j2
+/m/04ddm4;/film/film/release_date_s./film/film_regional_release_date/film_release_region;/m/06bnz:0.78125,224 175 0.78125 /film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/059j2) <= /film/film/release_date_s./film/film_regional_release_date/film_release_region(X,/m/06bnz)
+
+/m/0hfzr;/film/film/other_crew./film/film_crew_gig/crewmember;/m/0b79gfg
+/m/0b79gfg;/film/film_crewmember/films_crewed./film/film_crew_gig/film;/m/0hfzr:0.8027681660899654,289 232 0.8027681660899654 /film/film/other_crew./film/film_crew_gig/crewmember(X,Y) <= /film/film_crewmember/films_crewed./film/film_crew_gig/film(Y,X)
+
+/m/02q690_;/award/award_ceremony/awards_presented./award/award_honor/award_winner;/m/09px1w
+/m/09px1w;/award/award_winner/awards_won./award/award_honor/ceremony;/m/02q690_:0.8174545454545454,1375 1124 0.8174545454545454 /award/award_ceremony/awards_presented./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/ceremony(Y,X)
+
+/m/01gqfm;/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country;/m/06bnz
+/m/01gqfm;/olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country;/m/0345h:0.8695652173913043,46 40 0.8695652173913043 /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country(X,/m/06bnz) <= /olympics/olympic_sport/athletes./olympics/olympic_athlete_affiliation/country(X,/m/0345h)
+
+/m/0d02km;/people/person/gender;/m/05zppz
+/m/0d02km;/people/person/profession;/m/01d_h8:0.7270375161707633,773 562 0.7270375161707633 /people/person/gender(X,/m/05zppz) <= /people/person/profession(X,/m/01d_h8)
+
+/m/02sp_v;/award/award_category/nominees./award/award_nomination/award_nominee;/m/011zf2
+/m/011zf2;/award/award_nominee/award_nominations./award/award_nomination/award;/m/02sp_v:0.812,2000 1624 0.812 /award/award_category/nominees./award/award_nomination/award_nominee(X,Y) <= /award/award_nominee/award_nominations./award/award_nomination/award(Y,X)
+
+/m/031rp3;/business/employer/employees./business/employment_tenure/person;/m/03qncl3
+/m/03qncl3;/people/person/employment_history./business/employment_tenure/company;/m/031rp3:0.7890625,256 202 0.7890625 /business/employer/employees./business/employment_tenure/person(X,Y) <= /people/person/employment_history./business/employment_tenure/company(Y,X)
+
+/m/05z43v;/film/film/starring./film/performance/actor;/m/0b_dy
+/m/0b_dy;/award/award_nominee/award_nominations./award/award_nomination/nominated_for;/m/05z43v:0.875,8 7 0.875 /film/film/starring./film/performance/actor(X,/m/0b_dy) <= /award/award_nominee/award_nominations./award/award_nomination/nominated_for(/m/0b_dy,X)
+
+/m/06151l;/award/award_nominee/award_nominations./award/award_nomination/nominated_for;/m/01g03q
+/m/01g03q;/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee;/m/06151l:0.839,2000 1678 0.839 /award/award_nominee/award_nominations./award/award_nomination/nominated_for(X,Y) <= /award/award_nominated_work/award_nominations./award/award_nomination/award_nominee(Y,X)
+
+/m/05p09zm;/award/award_category/winners./award/award_honor/honored_for;/m/01qvz8
+/m/01qvz8;/award/award_winning_work/awards_won./award/award_honor/award;/m/05p09zm:0.8165829145728644,1194 975 0.8165829145728644 /award/award_category/winners./award/award_honor/honored_for(X,Y) <= /award/award_winning_work/awards_won./award/award_honor/award(Y,X)
+
+/m/021s9n;/education/educational_institution/school_type;/m/05pcjw
+/m/021s9n;/business/employer/employees./business/employment_tenure/title;/m/05k17c:0.4117647058823529,17 7 0.4117647058823529 /education/educational_institution/school_type(X,/m/05pcjw) <= /business/employer/employees./business/employment_tenure/title(X,/m/05k17c)
+
+/m/02bjhv;/business/business_operation/operating_income./measurement_unit/dated_money_value/currency;/m/09nqf
+/m/02bjhv;/business/business_operation/assets./measurement_unit/dated_money_value/currency;/m/09nqf:0.7888888888888889,180 142 0.7888888888888889 /business/business_operation/operating_income./measurement_unit/dated_money_value/currency(X,/m/09nqf) <= /business/business_operation/assets./measurement_unit/dated_money_value/currency(X,/m/09nqf)
+
+/m/06q8qh;/film/film/genre;/m/04t36
+/m/04t36;/film/film_genre/films_in_this_genre;/m/06q8qh:0.8160919540229885,1305 1065 0.8160919540229885 /film/film/genre(X,Y) <= /film/film_genre/films_in_this_genre(Y,X)
+
+/m/06pqy_;/sports/sports_team/roster./sports/sports_team_roster/position;/m/02sdk9v
+/m/02sdk9v;/sports/sports_position/players./sports/sports_team_roster/team;/m/06pqy_:0.8295761947700632,1109 920 0.8295761947700632 /sports/sports_team/roster./sports/sports_team_roster/position(X,Y) <= /sports/sports_position/players./sports/sports_team_roster/team(Y,X)
+
+/m/033jkj;/award/award_nominee/award_nominations./award/award_nomination/award_nominee;/m/033jj1
+/m/033jj1;/award/award_nominee/award_nominations./award/award_nomination/award_nominee;/m/033jkj:0.8145,2000 1629 0.8145 /award/award_nominee/award_nominations./award/award_nomination/award_nominee(X,Y) <= /award/award_nominee/award_nominations./award/award_nomination/award_nominee(Y,X)
+
+/m/0tbql;/location/location/contains;/m/01lnyf
+/m/01lnyf;/location/location/containedby;/m/0tbql:0.8281036834924966,1466 1214 0.8281036834924966 /location/location/contains(X,Y) <= /location/location/containedby(Y,X)
+
+/m/016ztl;/film/film/country;/m/03_3d
+/m/0jxy;/film/film_genre/films_in_this_genre;/m/016ztl:0.8461538461538461,26 22 0.8461538461538461 /film/film/country(X,/m/03_3d) <= /film/film_genre/films_in_this_genre(/m/0jxy,X)
+
+/m/01934k;/award/award_winner/awards_won./award/award_honor/award_winner;/m/02l0sf
+/m/02l0sf;/award/award_winner/awards_won./award/award_honor/award_winner;/m/01934k:0.8195,2000 1639 0.8195 /award/award_winner/awards_won./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/award_winner(Y,X)
+
+/m/0gyv0b4;/film/film/distributors./film/film_film_distributor_relationship/distributor;/m/03xq0f
+/m/03xq0f;/film/film_distributor/films_distributed./film/film_film_distributor_relationship/film;/m/0gyv0b4:0.8176033934252386,943 771 0.8176033934252386 /film/film/distributors./film/film_film_distributor_relationship/distributor(X,Y) <= /film/film_distributor/films_distributed./film/film_film_distributor_relationship/film(Y,X)
+
+/m/0hr3c8y;/award/award_ceremony/awards_presented./award/award_honor/award_winner;/m/027dtv3
+/m/027dtv3;/award/award_winner/awards_won./award/award_honor/ceremony;/m/0hr3c8y:0.8174545454545454,1375 1124 0.8174545454545454 /award/award_ceremony/awards_presented./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/ceremony(Y,X)
+
+/m/07t_x;/location/country/form_of_government;/m/01d9r3
+/m/01d9r3;/government/form_of_government/countries;/m/07t_x:0.8122866894197952,293 238 0.8122866894197952 /location/country/form_of_government(X,Y) <= /government/form_of_government/countries(Y,X)
+
+/m/019pcs;/olympics/olympic_participating_country/medals_won./olympics/olympic_medal_honor/medal;/m/02lq67
+/m/02lq67;/olympics/olympic_medal/medal_winners./olympics/olympic_medal_honor/country;/m/019pcs:0.815668202764977,217 177 0.815668202764977 /olympics/olympic_participating_country/medals_won./olympics/olympic_medal_honor/medal(X,Y) <= /olympics/olympic_medal/medal_winners./olympics/olympic_medal_honor/country(Y,X)
+
+/m/05lfwd;/award/award_nominated_work/award_nominations./award/award_nomination/award_nominee;/m/06czyr
+/m/06czyr;/award/award_winner/awards_won./award/award_honor/honored_for;/m/05lfwd:0.7556071152358855,1293 977 0.7556071152358855 /award/award_nominated_work/award_nominations./award/award_nomination/award_nominee(X,Y) <= /award/award_winner/awards_won./award/award_honor/honored_for(Y,X)
+
+/m/027m5wv;/film/film/music;/m/0fpjyd
+/m/0fpjyd;/award/award_nominee/award_nominations./award/award_nomination/nominated_for;/m/027m5wv:0.0535,2000 107 0.0535 /film/film/music(X,Y) <= /award/award_nominee/award_nominations./award/award_nomination/nominated_for(Y,X)
+
+/m/016gr2;/film/actor/film./film/performance/special_performance_type;/m/0147fv
+/m/0147fv;/film/special_film_performance_type/film_performance_type./film/performance/actor;/m/016gr2:0.8755364806866953,233 204 0.8755364806866953 /film/actor/film./film/performance/special_performance_type(X,Y) <= /film/special_film_performance_type/film_performance_type./film/performance/actor(Y,X)
+
+/m/0gkydb;/award/award_winner/awards_won./award/award_honor/award_winner;/m/018ygt
+/m/018ygt;/award/award_winner/awards_won./award/award_honor/award_winner;/m/0gkydb:0.8195,2000 1639 0.8195 /award/award_winner/awards_won./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/award_winner(Y,X)
+
+/m/02pz3j5;/award/award_category/winners./award/award_honor/honored_for;/m/0358x_
+/m/0358x_;/award/award_winning_work/awards_won./award/award_honor/award;/m/02pz3j5:0.8165829145728644,1194 975 0.8165829145728644 /award/award_category/winners./award/award_honor/honored_for(X,Y) <= /award/award_winning_work/awards_won./award/award_honor/award(Y,X)
+
+/m/01wj18h;/music/artist/genre;/m/02w4v
+/m/02w4v;/music/genre/artists;/m/01wj18h:0.8230579531442663,1622 1335 0.8230579531442663 /music/artist/genre(X,Y) <= /music/genre/artists(Y,X)
+
+/m/0dgd_;/people/profession/people_with_this_profession;/m/07xr3w
+/m/07xr3w;/people/person/profession;/m/0dgd_:0.8118594436310396,1366 1109 0.8118594436310396 /people/profession/people_with_this_profession(X,Y) <= /people/person/profession(Y,X)
+
+/m/03q3sy;/people/person/gender;/m/05zppz
+/m/02z3zp;/influence/influence_node/influenced;/m/03q3sy:0.782991202346041,341 267 0.782991202346041 /people/person/gender(X,Y) <= /influence/influence_node/influenced(A,X), /people/person/gender(A,Y)
+
+/m/044mz_;/award/award_winner/awards_won./award/award_honor/award_winner;/m/044mm6
+/m/044mm6;/award/award_winner/awards_won./award/award_honor/award_winner;/m/044mz_:0.8195,2000 1639 0.8195 /award/award_winner/awards_won./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/award_winner(Y,X)
+
+/m/018ndc;/award/award_nominee/award_nominations./award/award_nomination/award;/m/026mff
+/m/026mff;/award/award_category/nominees./award/award_nomination/award_nominee;/m/018ndc:0.8159478435305918,1994 1627 0.8159478435305918 /award/award_nominee/award_nominations./award/award_nomination/award(X,Y) <= /award/award_category/nominees./award/award_nomination/award_nominee(Y,X)
+
+/m/01ggbx;/people/person/profession;/m/02jknp
+/m/02jknp;/people/profession/people_with_this_profession;/m/01ggbx:0.8292682926829268,1230 1020 0.8292682926829268 /people/person/profession(X,Y) <= /people/profession/people_with_this_profession(Y,X)
+
+/m/0sxns;/award/award_nominated_work/award_nominations./award/award_nomination/award;/m/02z0dfh
+/m/02z0dfh;/award/award_category/nominees./award/award_nomination/nominated_for;/m/0sxns:0.8170542635658915,1935 1581 0.8170542635658915 /award/award_nominated_work/award_nominations./award/award_nomination/award(X,Y) <= /award/award_category/nominees./award/award_nomination/nominated_for(Y,X)
+
+/m/0d0mbj;/people/person/profession;/m/025352
+/m/025352;/people/profession/people_with_this_profession;/m/0d0mbj:0.8292682926829268,1230 1020 0.8292682926829268 /people/person/profession(X,Y) <= /people/profession/people_with_this_profession(Y,X)
+
+/m/0gq_v;/award/award_category/winners./award/award_honor/ceremony;/m/0ftlkg
+/m/0ftlkg;/award/award_ceremony/awards_presented./award/award_honor/award;/m/0gq_v:0.8355263157894737,1064 889 0.8355263157894737 /award/award_category/winners./award/award_honor/ceremony(X,Y) <= /award/award_ceremony/awards_presented./award/award_honor/award(Y,X)
+
+/m/0gqzz;/award/award_category/winners./award/award_honor/honored_for;/m/0j6b5
+/m/0gqzz;/award/award_category/winners./award/award_honor/award_winner;/m/0534v:0.29205298013245035,1510 441 0.29205298013245035 /award/award_category/winners./award/award_honor/honored_for(X,Y) <= /award/award_category/winners./award/award_honor/award_winner(X,A), /award/award_winner/awards_won./award/award_honor/honored_for(A,Y)
+
+/m/09pnw5;/award/award_ceremony/awards_presented./award/award_honor/award;/m/054knh
+/m/054knh;/award/award_category/winners./award/award_honor/ceremony;/m/09pnw5:0.8254252461951657,1117 922 0.8254252461951657 /award/award_ceremony/awards_presented./award/award_honor/award(X,Y) <= /award/award_category/winners./award/award_honor/ceremony(Y,X)
+
+/m/0kbvv;/olympics/olympic_games/sports;/m/03tmr
+/m/0kbvv;/user/jg/default_domain/olympic_games/sports;/m/03tmr:0.8333333333333334,468 390 0.8333333333333334 /olympics/olympic_games/sports(X,Y) <= /user/jg/default_domain/olympic_games/sports(X,Y)
+
+/m/084l5;/sports/sports_team/roster./american_football/football_historical_roster_position/position_s;/m/06b1q
+/m/084l5;/american_football/football_team/historical_roster./american_football/football_historical_roster_position/position_s;/m/06b1q:0.8295454545454546,352 292 0.8295454545454546 /sports/sports_team/roster./american_football/football_historical_roster_position/position_s(X,Y) <= /american_football/football_team/historical_roster./american_football/football_historical_roster_position/position_s(X,Y)
+
+/m/05lb87;/award/award_winner/awards_won./award/award_honor/honored_for;/m/03ln8b
+/m/03ln8b;/award/award_winning_work/awards_won./award/award_honor/award_winner;/m/05lb87:0.8088614116434827,1941 1570 0.8088614116434827 /award/award_winner/awards_won./award/award_honor/honored_for(X,Y) <= /award/award_winning_work/awards_won./award/award_honor/award_winner(Y,X)
+
+/m/01gz9n;/award/award_winner/awards_won./award/award_honor/honored_for;/m/05dmmc
+/m/05dmmc;/award/award_winning_work/awards_won./award/award_honor/award_winner;/m/01gz9n:0.8088614116434827,1941 1570 0.8088614116434827 /award/award_winner/awards_won./award/award_honor/honored_for(X,Y) <= /award/award_winning_work/awards_won./award/award_honor/award_winner(Y,X)
+
+/m/02grdc;/award/award_category/winners./award/award_honor/ceremony;/m/019bk0
+/m/019bk0;/award/award_ceremony/awards_presented./award/award_honor/award;/m/02grdc:0.8355263157894737,1064 889 0.8355263157894737 /award/award_category/winners./award/award_honor/ceremony(X,Y) <= /award/award_ceremony/awards_presented./award/award_honor/award(Y,X)
+
+/m/0n5yh;/location/us_county/hud_county_place;/m/0xhj2
+/m/0xhj2;/location/hud_county_place/county;/m/0n5yh:0.7608695652173914,276 210 0.7608695652173914 /location/us_county/hud_county_place(X,Y) <= /location/hud_county_place/county(Y,X)
+
+/m/0gy7bj4;/film/film/distributors./film/film_film_distributor_relationship/distributor;/m/024rbz
+/m/024rbz;/film/film_distributor/films_distributed./film/film_film_distributor_relationship/film;/m/0gy7bj4:0.8176033934252386,943 771 0.8176033934252386 /film/film/distributors./film/film_film_distributor_relationship/distributor(X,Y) <= /film/film_distributor/films_distributed./film/film_film_distributor_relationship/film(Y,X)
+
+/m/01r6jt2;/people/person/places_lived./people/place_lived/location;/m/04jpl
+/m/01r6jt2;/people/person/place_of_birth;/m/04jpl:0.5294117647058824,51 27 0.5294117647058824 /people/person/places_lived./people/place_lived/location(X,/m/04jpl) <= /people/person/place_of_birth(X,/m/04jpl)
+
+/m/0bz6sq;/film/film/release_date_s./film/film_regional_release_date/film_release_distribution_medium;/m/029j_
+/m/054g1r;/film/film_distributor/films_distributed./film/film_film_distributor_relationship/film;/m/0bz6sq:0.8160919540229885,87 71 0.8160919540229885 /film/film/release_date_s./film/film_regional_release_date/film_release_distribution_medium(X,/m/029j_) <= /film/film_distributor/films_distributed./film/film_film_distributor_relationship/film(/m/054g1r,X)
+
+/m/02p_ycc;/award/award_winner/awards_won./award/award_honor/award_winner;/m/01dy7j
+/m/01dy7j;/award/award_winner/awards_won./award/award_honor/award_winner;/m/02p_ycc:0.8195,2000 1639 0.8195 /award/award_winner/awards_won./award/award_honor/award_winner(X,Y) <= /award/award_winner/awards_won./award/award_honor/award_winner(Y,X)
+
+/m/0xddr;/location/hud_foreclosure_area/estimated_number_foreclosures./measurement_unit/dated_integer/source;/m/0jbk9
+/m/0xddr;/location/hud_foreclosure_area/estimated_number_of_mortgages./measurement_unit/dated_integer/source;/m/0jbk9:0.8406504065040651,615 517 0.8406504065040651 /location/hud_foreclosure_area/estimated_number_foreclosures./measurement_unit/dated_integer/source(X,Y) <= /location/hud_foreclosure_area/estimated_number_of_mortgages./measurement_unit/dated_integer/source(X,Y)
+
+/m/04bdzg;/people/person/profession;/m/02hrh1q
+/m/02hrh1q;/people/profession/people_with_this_profession;/m/04bdzg:0.8292682926829268,1230 1020 0.8292682926829268 /people/person/profession(X,Y) <= /people/profession/people_with_this_profession(Y,X)

@@ -1,0 +1,299 @@
+02579447;_derivationally_related_form;00272713
+00272713;_derivationally_related_form;02579447:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00654625;_derivationally_related_form;08239808
+08239808;_derivationally_related_form;00654625:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01747945;_derivationally_related_form;06678302
+06678302;_derivationally_related_form;01747945:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00607405;_derivationally_related_form;05996646
+05996646;_derivationally_related_form;00607405:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+12636705;_hypernym;11585340
+12619306;_member_meronym;12636705:0.9,20 18 0.9 _hypernym(X,11585340) <= _member_meronym(12619306,X)
+
+02504131;_derivationally_related_form;00123170
+00123170;_derivationally_related_form;02504131:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+03472232;_derivationally_related_form;00099721
+00099721;_derivationally_related_form;03472232:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00827379;_derivationally_related_form;01271189
+01271189;_derivationally_related_form;00827379:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+04671394;_derivationally_related_form;00724861
+00724861;_derivationally_related_form;04671394:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+09373716;_instance_hypernym;09411430
+09159003;_has_part;09373716:0.5,12 6 0.5 _instance_hypernym(X,09411430) <= _has_part(09159003,X)
+
+01511706;_derivationally_related_form;00104249
+00104249;_derivationally_related_form;01511706:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+13423615;_derivationally_related_form;01254013
+01254013;_derivationally_related_form;13423615:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00334935;_derivationally_related_form;01499265
+01499265;_derivationally_related_form;00334935:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+10254761;_derivationally_related_form;06072476
+06072476;_derivationally_related_form;10254761:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+07443010;_derivationally_related_form;01521124
+01521124;_derivationally_related_form;07443010:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+06674542;_derivationally_related_form;00970732
+00970732;_derivationally_related_form;06674542:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+06503224;_derivationally_related_form;00277399
+00277399;_derivationally_related_form;06503224:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02686952;_derivationally_related_form;13913427
+13913427;_derivationally_related_form;02686952:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01174742;_derivationally_related_form;00841091
+00841091;_derivationally_related_form;01174742:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00751779;_derivationally_related_form;00835506
+00835506;_derivationally_related_form;00751779:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02771320;_derivationally_related_form;14215331
+14215331;_derivationally_related_form;02771320:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00192836;_derivationally_related_form;10056103
+10056103;_derivationally_related_form;00192836:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01110274;_derivationally_related_form;02244956
+02244956;_derivationally_related_form;01110274:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01463963;_derivationally_related_form;05075602
+05075602;_derivationally_related_form;01463963:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+08244062;_derivationally_related_form;10120085
+10120085;_derivationally_related_form;08244062:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01336587;_derivationally_related_form;05645597
+05645597;_derivationally_related_form;01336587:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+08962951;_instance_hypernym;08524735
+08962610;_has_part;08962951:0,null
+
+01435380;_derivationally_related_form;01142519
+01142519;_derivationally_related_form;01435380:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02578604;_hypernym;01432517
+02575766;_member_meronym;02578604:0.5714285714285714,7 4 0.5714285714285714 _hypernym(X,01432517) <= _member_meronym(02575766,X)
+
+09179776;_derivationally_related_form;00770437
+00770437;_derivationally_related_form;09179776:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01569181;_derivationally_related_form;00225593
+00225593;_derivationally_related_form;01569181:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00156101;_derivationally_related_form;02373785
+02373785;_derivationally_related_form;00156101:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01566386;_hypernym;01504437
+01524885;_member_meronym;01566386:0.9142857142857143,35 32 0.9142857142857143 _hypernym(X,01504437) <= _member_meronym(01524885,X)
+
+00594836;_derivationally_related_form;09931640
+09931640;_derivationally_related_form;00594836:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+06838543;_hypernym;06828818
+06498569;_has_part;06838543:0.8571428571428571,7 6 0.8571428571428571 _hypernym(X,06828818) <= _has_part(06498569,X)
+
+06798750;_derivationally_related_form;01275762
+01275762;_derivationally_related_form;06798750:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00546192;_derivationally_related_form;15109745
+15109745;_derivationally_related_form;00546192:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+04590746;_derivationally_related_form;01392237
+01392237;_derivationally_related_form;04590746:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00966869;_derivationally_related_form;02344568
+02344568;_derivationally_related_form;00966869:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+05075602;_derivationally_related_form;02333689
+02333689;_derivationally_related_form;05075602:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02464693;_also_see;00724081
+00724081;_also_see;02464693:0.5829846582984658,717 418 0.5829846582984658 _also_see(X,Y) <= _also_see(Y,X)
+
+06877742;_derivationally_related_form;00034758
+00034758;_derivationally_related_form;06877742:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+15015501;_derivationally_related_form;00504901
+00504901;_derivationally_related_form;15015501:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00289082;_also_see;01752167
+01752167;_also_see;00289082:0.5829846582984658,717 418 0.5829846582984658 _also_see(X,Y) <= _also_see(Y,X)
+
+13925550;_derivationally_related_form;00461493
+00461493;_derivationally_related_form;13925550:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01500082;_derivationally_related_form;02818832
+02818832;_derivationally_related_form;01500082:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00842692;_derivationally_related_form;02765692
+02765692;_derivationally_related_form;00842692:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00543410;_derivationally_related_form;13464820
+13464820;_derivationally_related_form;00543410:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00201407;_derivationally_related_form;00751145
+00751145;_derivationally_related_form;00201407:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+04119892;_derivationally_related_form;02362798
+02362798;_derivationally_related_form;04119892:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00981944;_derivationally_related_form;07125958
+07125958;_derivationally_related_form;00981944:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01460421;_also_see;01244410
+01244410;_also_see;01460421:0.5829846582984658,717 418 0.5829846582984658 _also_see(X,Y) <= _also_see(Y,X)
+
+00234423;_derivationally_related_form;02535896
+02535896;_derivationally_related_form;00234423:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01931768;_derivationally_related_form;00815173
+00815173;_derivationally_related_form;01931768:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00968211;_derivationally_related_form;10483138
+10483138;_derivationally_related_form;00968211:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02400760;_derivationally_related_form;10760340
+10760340;_derivationally_related_form;02400760:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+03047941;_derivationally_related_form;02724126
+02724126;_derivationally_related_form;03047941:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02447793;_derivationally_related_form;01139830
+01139830;_derivationally_related_form;02447793:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+07985223;_derivationally_related_form;01292885
+01292885;_derivationally_related_form;07985223:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+08898187;_instance_hypernym;08633957
+08898187;_instance_hypernym;08524735:0.22746781115879827,466 106 0.22746781115879827 _instance_hypernym(X,08633957) <= _instance_hypernym(X,08524735)
+
+08030711;_instance_hypernym;08392137
+08030711;_synset_domain_topic_of;00759694:0.689922480620155,129 89 0.689922480620155 _instance_hypernym(X,08392137) <= _synset_domain_topic_of(X,00759694)
+
+00276987;_derivationally_related_form;00493259
+00493259;_derivationally_related_form;00276987:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+09437369;_derivationally_related_form;01558883
+01558883;_derivationally_related_form;09437369:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+11795366;_hypernym;11556857
+11794267;_member_meronym;11795366:0.6,5 3 0.6 _hypernym(X,11556857) <= _member_meronym(11794267,X)
+
+00873603;_also_see;00884778
+00884778;_also_see;00873603:0.5829846582984658,717 418 0.5829846582984658 _also_see(X,Y) <= _also_see(Y,X)
+
+12972629;_hypernym;08103777
+12972414;_member_meronym;12972629:0,null
+
+00768778;_derivationally_related_form;00159899
+00159899;_derivationally_related_form;00768778:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+07363346;_derivationally_related_form;01970826
+01970826;_derivationally_related_form;07363346:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+04159058;_derivationally_related_form;01356582
+01356582;_derivationally_related_form;04159058:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00626428;_derivationally_related_form;10508710
+10508710;_derivationally_related_form;00626428:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02260770;_hypernym;02260362
+02260770;_synset_domain_topic_of;01090446:0.11428571428571428,35 4 0.11428571428571428 _hypernym(X,02260362) <= _synset_domain_topic_of(X,01090446)
+
+01056411;_derivationally_related_form;01862918
+01862918;_derivationally_related_form;01056411:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01530431;_derivationally_related_form;05582859
+05582859;_derivationally_related_form;01530431:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02575082;_derivationally_related_form;00752431
+00752431;_derivationally_related_form;02575082:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02016523;_derivationally_related_form;07370125
+07370125;_derivationally_related_form;02016523:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+10387196;_derivationally_related_form;04091839
+04091839;_derivationally_related_form;10387196:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+03925226;_derivationally_related_form;02838592
+02838592;_derivationally_related_form;03925226:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+10734963;_derivationally_related_form;03612965
+03612965;_derivationally_related_form;10734963:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01323338;_derivationally_related_form;15032376
+15032376;_derivationally_related_form;01323338:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00931467;_verb_group;00932161
+00932161;_verb_group;00931467:0.9296187683284457,682 634 0.9296187683284457 _verb_group(X,Y) <= _verb_group(Y,X)
+
+01740969;_derivationally_related_form;00918383
+00918383;_derivationally_related_form;01740969:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+13573181;_derivationally_related_form;00379774
+00379774;_derivationally_related_form;13573181:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00904690;_derivationally_related_form;06740644
+06740644;_derivationally_related_form;00904690:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01118081;_derivationally_related_form;00788821
+00788821;_derivationally_related_form;01118081:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02416751;_derivationally_related_form;09935793
+09935793;_derivationally_related_form;02416751:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02321757;_derivationally_related_form;10707804
+10707804;_derivationally_related_form;02321757:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00203342;_derivationally_related_form;00685683
+00685683;_derivationally_related_form;00203342:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01774426;_derivationally_related_form;07503430
+07503430;_derivationally_related_form;01774426:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00514871;_derivationally_related_form;00248063
+00248063;_derivationally_related_form;00514871:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01693138;_synset_domain_topic_of;00933420
+01693138;_hypernym;01690294:0.42857142857142855,7 3 0.42857142857142855 _synset_domain_topic_of(X,00933420) <= _hypernym(X,01690294)
+
+00686890;_derivationally_related_form;01010118
+01010118;_derivationally_related_form;00686890:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+00241038;_derivationally_related_form;07313004
+07313004;_derivationally_related_form;00241038:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01800422;_derivationally_related_form;00271263
+00271263;_derivationally_related_form;01800422:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01946118;_hypernym;01938850
+01941670;_member_meronym;01946118:0.625,16 10 0.625 _hypernym(X,01938850) <= _member_meronym(01941670,X)
+
+14486767;_derivationally_related_form;00475183
+00475183;_derivationally_related_form;14486767:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01045419;_derivationally_related_form;10776339
+10776339;_derivationally_related_form;01045419:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02349212;_derivationally_related_form;08324514
+08324514;_derivationally_related_form;02349212:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+01960779;_synset_domain_topic_of;00299217
+01960779;_synset_domain_topic_of;00450335:0.7142857142857143,7 5 0.7142857142857143 _synset_domain_topic_of(X,00299217) <= _synset_domain_topic_of(X,00450335)
+
+00366691;_derivationally_related_form;04975340
+04975340;_derivationally_related_form;00366691:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)
+
+02102484;_derivationally_related_form;02106006
+02106006;_derivationally_related_form;02102484:0.9325,2000 1865 0.9325 _derivationally_related_form(X,Y) <= _derivationally_related_form(Y,X)

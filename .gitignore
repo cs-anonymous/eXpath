@@ -16,10 +16,9 @@ major_revision/
 .Trashes
 ehthumbs.db
 Thumbs.db
-output*
 *.log
-out*
 *.bac
 json*
-AnyBurlAttack
 stored_models
+out
+*.tar.gz

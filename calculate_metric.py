@@ -26,7 +26,7 @@ gx = pd.DataFrame(columns=folders)
 DHit1 = pd.DataFrame(columns=folders, index=['criage', 'DP', 'k1', 'kelpie'])
 DHit1_h = pd.DataFrame(columns=folders, index=['criage', 'DP', 'k1', 'kelpie'])
 DHit1_t = pd.DataFrame(columns=folders, index=['criage', 'DP', 'k1', 'kelpie'])
-best_count = pd.DataFrame(0, columns=folders, index=['eXpath()1', 'data_poisoning', 'k1', 'AnyBurlAttack'])
+best_count = pd.DataFrame(0, columns=folders, index=['eXpath()1', 'data_poisoning', 'k1', 'KGEAttack'])
 
 def setting2path(folder, setting):
     suffix = setting
@@ -91,14 +91,14 @@ def loadAverageData(folder, setting):
 
 
 def process(folder):
-    for setting in ['criage', 'DP', 'k1', 'AnyBurlAttack', 'kelpie', \
+    for setting in ['criage', 'DP', 'k1', 'KGEAttack', 'kelpie', \
                     'eXpath(011)1', 'eXpath(101)1', 'eXpath(110)1', 'eXpath(100)1', 'eXpath(001)1', 'eXpath(000)1', \
                     'eXpath(011)4', 'eXpath(101)4', 'eXpath(110)4', 'eXpath(100)4', 'eXpath(001)4', 'eXpath(000)4', \
                     'eXpath()1', 'eXpath(h)1', 'eXpath(t)1', 'eXpath1', \
                     'eXpath()2', 'eXpath(h)2', 'eXpath(t)2', 'eXpath2', \
                     'eXpath()4', 'eXpath(h)4', 'eXpath(t)4', 'eXpath4', \
                     'eXpath()8', 'eXpath(h)8', 'eXpath(t)8', 'eXpath8', \
-                    'criage+eXpath1', 'DP+eXpath1', 'k1+eXpath1', 'AnyBurlAttack+eXpath1', \
+                    'criage+eXpath1', 'DP+eXpath1', 'k1+eXpath1', 'KGEAttack+eXpath1', \
                     'kelpie+eXpath4']:
         print('processing', folder, setting)
         _setting = setting.replace('DP', 'data_poisoning')
@@ -175,7 +175,7 @@ def process(folder):
         rx_t.loc[setting, folder] = round(dMRR_t / MRR_t, 3) 
 
     for pair in [('eXpath()1', 'criage'), ('eXpath()1', 'data_poisoning'), ('eXpath()1', 'k1'), \
-                 ('eXpath()1', 'AnyBurlAttack'), ('eXpath(h)4', 'kelpie')]:
+                 ('eXpath()1', 'KGEAttack'), ('eXpath(h)4', 'kelpie')]:
         setting1, setting2 = pair
         # file1 = setting2path(folder, setting1)
         # file2 = setting2path(folder, setting2)
@@ -214,7 +214,7 @@ def process(folder):
 
     # 计算最优的setting的percentage
     # best_prediction2data = loadAverageData(folder, 'eXpath()1')
-    # for setting in ['data_poisoning', 'k1', 'AnyBurlAttack']:
+    # for setting in ['data_poisoning', 'k1', 'KGEAttack']:
     #     prediction2data = loadAverageData(folder, setting)
     #     if best_prediction2data is None or prediction2data is None:
     #         continue
@@ -222,7 +222,7 @@ def process(folder):
     #         if prediction2data.get(k, {'dMRR': 0})['dMRR'] > best_prediction2data.get(k, {'dMRR': 0})['dMRR']:
     #             best_prediction2data[k] = prediction2data[k]
 
-    # for setting in ['eXpath()1', 'data_poisoning', 'k1', 'AnyBurlAttack']:
+    # for setting in ['eXpath()1', 'data_poisoning', 'k1', 'KGEAttack']:
     #     prediction2data = loadAverageData(folder, setting)
     #     if best_prediction2data is None or prediction2data is None:
     #         continue

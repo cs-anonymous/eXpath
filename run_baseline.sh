@@ -7,7 +7,7 @@ run() {
     mkdir -p "$output_dir"
 
     # baseline
-    for metric in kelpie criage data_poisoning k1 AnyBurlAttack; do
+    for metric in kelpie criage data_poisoning k1 KGEAttack; do
         echo "Processing Baseline ${model} ${dataset} ${metric}"
         CUDA_VISIBLE_DEVICES=${device} python3 verify.py --dataset "$dataset" --model "$model" --metric "$metric" > "${output_dir}/verify_${metric}.log"
     done

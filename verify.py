@@ -98,7 +98,7 @@ dataset = Dataset(name=args.dataset, separator="\t", load=True)
 # Read explanations from the output file
 ablation_suffix = '_' + args.ablation if  args.ablation != '1111' else ''
 map_path = f'out/{args.model}_{args.dataset}/extractedFactsMap{ablation_suffix}.json'
-if args.metric in ['kelpie', 'criage', 'data_poisoning', 'k1', 'AnyBurlAttack']:
+if args.metric in ['kelpie', 'criage', 'data_poisoning', 'k1', 'KGEAttack']:
     dirname = os.path.join('results', 'necessary', args.metric, 
                            args.dataset.lower().replace('3-10', '').replace('-', ''), args.model.lower())
     if args.metric == 'kelpie':
