@@ -3,7 +3,7 @@ import random
 from typing import Tuple, Any
 
 from dataset import Dataset
-from relevance_engines.post_training_engine import PostTrainingEngine
+from scripts.post_training_engine import PostTrainingEngine
 from link_prediction.models.model import Model
 from explanation_builders.explanation_builder import NecessaryExplanationBuilder
 import numpy

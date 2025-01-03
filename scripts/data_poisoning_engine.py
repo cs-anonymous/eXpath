@@ -2,7 +2,7 @@ from typing import Tuple, Any
 
 import numpy
 from dataset import Dataset
-from relevance_engines.engine import ExplanationEngine
+from scripts.engine import ExplanationEngine
 from link_prediction.models.tucker import TuckER
 from link_prediction.models.model import Model
 

@@ -4,8 +4,9 @@ from dataset import Dataset
 from link_prediction.models.model import Model
 from prefilters.prefilter import PreFilter
 import numpy as np
-from config import MAX_PROCESSES
 import threading
+
+MAX_PROCESSES = 8
 
 class TypeBasedPreFilter(PreFilter):
     """

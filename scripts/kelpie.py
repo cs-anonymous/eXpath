@@ -4,7 +4,7 @@ from prefilters.no_prefilter import NoPreFilter
 from prefilters.prefilter import TYPE_PREFILTER, TOPOLOGY_PREFILTER, NO_PREFILTER
 from prefilters.type_based_prefilter import TypeBasedPreFilter
 from prefilters.topology_prefilter import TopologyPreFilter
-from relevance_engines.post_training_engine import PostTrainingEngine
+from scripts.post_training_engine import PostTrainingEngine
 from link_prediction.models.model import Model
 from explanation_builders.stochastic_necessary_builder import StochasticNecessaryExplanationBuilder
 from explanation_builders.stochastic_sufficient_builder import StochasticSufficientExplanationBuilder

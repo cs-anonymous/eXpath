@@ -1,6 +1,6 @@
 from typing import Tuple, Any
 from dataset import Dataset
-from relevance_engines.data_poisoning_engine import DataPoisoningEngine
+from scripts.data_poisoning_engine import DataPoisoningEngine
 from link_prediction.models.model import Model, LEARNING_RATE
 from explanation_builders.explanation_builder import NecessaryExplanationBuilder
 

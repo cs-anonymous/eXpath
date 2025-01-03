@@ -5,7 +5,7 @@ import torch
 from torch.nn import Parameter
 
 from dataset import Dataset
-from kelpie_dataset import KelpieDataset
+from scripts.kelpie_dataset import KelpieDataset
 from link_prediction.models.model import Model, DIMENSION, INIT_SCALE, KelpieModel
 
 

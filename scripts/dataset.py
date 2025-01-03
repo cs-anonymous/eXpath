@@ -5,8 +5,7 @@ from typing import Tuple
 
 import numpy
 
-from config import ROOT
-
+ROOT = os.path.realpath(os.path.join(os.path.abspath(__file__), ".."))
 DATA_PATH = os.path.join(ROOT, "data")
 FB15K = "FB15k"
 FB15K_237 = "FB15k-237"

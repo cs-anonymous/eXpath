@@ -8,7 +8,7 @@ from torch.nn import Parameter
 from torch.nn.init import xavier_normal_
 
 from dataset import Dataset
-from kelpie_dataset import KelpieDataset
+from scripts.kelpie_dataset import KelpieDataset
 from link_prediction.models.model import Model, KelpieModel, \
     ENTITY_DIMENSION, RELATION_DIMENSION, INPUT_DROPOUT, HIDDEN_DROPOUT_1, HIDDEN_DROPOUT_2
 

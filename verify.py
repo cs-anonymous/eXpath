@@ -14,7 +14,7 @@ sys.path.append(
 
 import yaml
 from link_prediction.evaluation.evaluation import Evaluator
-from dataset import ALL_DATASET_NAMES, Dataset, MANY_TO_ONE, ONE_TO_ONE
+from scripts.dataset import ALL_DATASET_NAMES, Dataset, MANY_TO_ONE, ONE_TO_ONE
 from link_prediction.models.complex import ComplEx
 from link_prediction.models.conve import ConvE
 from link_prediction.models.transe import TransE

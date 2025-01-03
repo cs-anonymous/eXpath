@@ -5,8 +5,8 @@ import numpy
 import torch
 
 from dataset import Dataset
-from kelpie_dataset import KelpieDataset
-from relevance_engines.engine import ExplanationEngine
+from scripts.kelpie_dataset import KelpieDataset
+from scripts.engine import ExplanationEngine
 from link_prediction.models.complex import ComplEx
 from link_prediction.models.conve import ConvE
 from link_prediction.models.transe import TransE

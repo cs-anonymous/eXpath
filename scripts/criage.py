@@ -1,18 +1,15 @@
 from typing import Tuple, Any
 from dataset import Dataset
-from prefilters.no_prefilter import NoPreFilter
-from prefilters.prefilter import TOPOLOGY_PREFILTER, TYPE_PREFILTER, NO_PREFILTER
-from prefilters.topology_prefilter import TopologyPreFilter
-from prefilters.type_based_prefilter import TypeBasedPreFilter
-from relevance_engines.data_poisoning_engine import DataPoisoningEngine
-from link_prediction.models.model import Model, LEARNING_RATE
-from explanation_builders.dp_necessary_builder import DataPoisoningNecessaryExplanationBuilder
-from explanation_builders.dp_sufficient_builder import DataPoisoningSufficientExplanationBuilder
+from scripts.criage_engine import CriageEngine
+from link_prediction.models.model import Model
+from prefilters.criage_prefilter import CriagePreFilter
+from explanation_builders.criage_necessary_builder import CriageNecessaryExplanationBuilder
+from explanation_builders.criage_sufficient_builder import CriageSufficientExplanationBuilder
 
 
-class DataPoisoning:
+class Criage:
     """
-    The DataPoisoning object is the overall manager of the Data_poisoning explanation process.
+    The Criage object is the overall manager of the Criage explanation process.
     It implements the whole explanation pipeline, requesting the suitable operations to the ExplanationEngines
     and to the entity_similarity modules.
     """
@@ -20,37 +17,28 @@ class DataPoisoning:
     def __init__(self,
                  model: Model,
                  dataset: Dataset,
-                 hyperparameters: dict,
-                 prefilter_type: str):
+                 hyperparameters: dict):
         """
-        DataPoisoning object constructor.
+        Criage object constructor.
 
         :param model: the model to explain
         :param dataset: the dataset used to train the model
         :param hyperparameters: the hyperparameters of the model and of its optimization process
-        :param prefilter_type: the type of prefilter to employ
         """
         self.model = model
         self.dataset = dataset
         self.hyperparameters = hyperparameters
 
-        if prefilter_type == TOPOLOGY_PREFILTER:
-            self.prefilter = TopologyPreFilter(model=model, dataset=dataset)
-        elif prefilter_type == TYPE_PREFILTER:
-            self.prefilter = TypeBasedPreFilter(model=model, dataset=dataset)
-        elif prefilter_type == NO_PREFILTER:
-            self.prefilter = NoPreFilter(model=model, dataset=dataset)
-        else:
-            self.prefilter = TopologyPreFilter(model=model, dataset=dataset)
-        self.engine = DataPoisoningEngine(model=model,
-                                          dataset=dataset,
-                                          hyperparameters=hyperparameters,
-                                          epsilon=hyperparameters[LEARNING_RATE])
+        self.prefilter = CriagePreFilter(model=model,
+                                         dataset=dataset)
+        self.engine = CriageEngine(model=model,
+                                   dataset=dataset,
+                                   hyperparameters=hyperparameters)
 
     def explain_necessary(self,
                           sample_to_explain: Tuple[Any, Any, Any],
                           perspective: str,
-                          num_promising_samples=50):
+                          num_promising_samples=-1):
         """
         This method extracts necessary explanations for a specific sample,
         from the perspective of either its head or its tail.
@@ -72,17 +60,17 @@ class DataPoisoning:
 
         """
 
-        most_promising_samples = self.prefilter.top_promising_samples_for(sample_to_explain=sample_to_explain,
-                                                                          perspective=perspective,
-                                                                          top_k=num_promising_samples)
+        top_promising_samples = self.prefilter.top_promising_samples_for(sample_to_explain=sample_to_explain,
+                                                                         perspective=perspective,
+                                                                         top_k=num_promising_samples)
 
-        rule_extractor = DataPoisoningNecessaryExplanationBuilder(model=self.model,
-                                                                  dataset=self.dataset,
-                                                                  hyperparameters=self.hyperparameters,
-                                                                  sample_to_explain=sample_to_explain,
-                                                                  perspective=perspective, )
+        explanation_builder = CriageNecessaryExplanationBuilder(model=self.model,
+                                                                dataset=self.dataset,
+                                                                hyperparameters=self.hyperparameters,
+                                                                sample_to_explain=sample_to_explain,
+                                                                perspective=perspective)
 
-        rules_with_relevance = rule_extractor.build_explanations(samples_to_remove=most_promising_samples)
+        rules_with_relevance = explanation_builder.build_explanations(samples_to_remove=top_promising_samples)
         return rules_with_relevance
 
     def explain_sufficient(self,
@@ -105,27 +93,27 @@ class DataPoisoning:
         :param num_promising_samples: the number of samples relevant to the sample to explain
                                      that must be identified and removed from the entity under analysis
                                      to verify whether they worsen the target prediction or not
-
-        :return: a list containing for each relevant n-ple extracted, a couple containing
-                                - that relevant n-ple
-                                - its value of relevance
         :param num_entities_to_convert: the number of entities to convert to extract
                                         (if they have to be extracted)
         :param entities_to_convert: the entities to convert
                                     (if they are passed instead of having to be extracted)
+
+        :return: a list containing for each relevant n-ple extracted, a couple containing
+                                - that relevant n-ple
+                                - its value of relevance
         """
 
         most_promising_samples = self.prefilter.top_promising_samples_for(sample_to_explain=sample_to_explain,
                                                                           perspective=perspective,
                                                                           top_k=num_promising_samples)
 
-        explanation_builder = DataPoisoningSufficientExplanationBuilder(model=self.model,
-                                                                        dataset=self.dataset,
-                                                                        hyperparameters=self.hyperparameters,
-                                                                        sample_to_explain=sample_to_explain,
-                                                                        perspective=perspective,
-                                                                        num_entities_to_convert=num_entities_to_convert,
-                                                                        entities_to_convert=entities_to_convert)
+        explanation_builder = CriageSufficientExplanationBuilder(model=self.model,
+                                                                 dataset=self.dataset,
+                                                                 hyperparameters=self.hyperparameters,
+                                                                 sample_to_explain=sample_to_explain,
+                                                                 perspective=perspective,
+                                                                 num_entities_to_convert=num_entities_to_convert,
+                                                                 entities_to_convert=entities_to_convert)
 
         explanations_with_relevance = explanation_builder.build_explanations(samples_to_add=most_promising_samples,
                                                                              top_k=10)

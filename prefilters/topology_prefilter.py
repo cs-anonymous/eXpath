@@ -4,9 +4,9 @@ from typing import Tuple, Any
 from dataset import Dataset
 from link_prediction.models.model import Model
 from prefilters.prefilter import PreFilter
-
-from config import MAX_PROCESSES
 import threading
+
+MAX_PROCESSES = 8
 
 class TopologyPreFilter(PreFilter):
     """

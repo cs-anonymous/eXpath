@@ -1,11 +1,6 @@
 # eXpath: Explaining Knowledge Graph Link Prediction with Ontological Closed Path Rules
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://n.ye-sun.com/gallery/2024/202501031614036.png" alt="MOFexampleV3 (1)" style="max-width: 65%; height: auto;" />
-  <img src="https://n.ye-sun.com/gallery/2024/202501031616855.png" alt="ruleExampleV5 (1)" style="max-width: 35%; height: auto;" />
-</div>
-
-
+![Example](https://n.ye-sun.com/gallery/2024/202501031829503.png)
 
 **eXpath** is a novel framework designed to enhance the interpretability of Link Prediction (LP) models in Knowledge Graphs (KG). While existing methods have successfully addressed LP in KGs, they often fall short in terms of providing semantically meaningful and human-interpretable explanations. eXpath tackles this issue by introducing path-based explanations that incorporate ontological closed path rules. This approach not only improves the efficiency and effectiveness of LP interpretation but also enables a more semantically rich understanding of the predicted links. More details can be found in the [arXiv paper](http://arxiv.org/abs/2412.04846).
 

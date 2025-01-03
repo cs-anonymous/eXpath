@@ -12,7 +12,7 @@ sys.path.append(
     os.path.realpath(os.path.join(os.path.abspath(__file__), os.path.pardir, os.path.pardir, os.path.pardir)))
 
 import yaml
-from dataset import ALL_DATASET_NAMES, Dataset
+from scripts.dataset import ALL_DATASET_NAMES, Dataset
 from link_prediction.evaluation.evaluation import Evaluator
 from link_prediction.models.complex import ComplEx
 from link_prediction.models.conve import ConvE

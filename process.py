@@ -11,7 +11,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import argparse
 import threading
 import html
-from dataset import ALL_DATASET_NAMES
+from scripts.dataset import ALL_DATASET_NAMES
 from scipy.sparse import csr_matrix
 from scipy.sparse import lil_matrix
 import random

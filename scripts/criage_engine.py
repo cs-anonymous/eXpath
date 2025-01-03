@@ -6,7 +6,7 @@ from typing import Tuple, Any
 import torch
 
 from dataset import Dataset, ONE_TO_ONE, MANY_TO_ONE
-from relevance_engines.engine import ExplanationEngine
+from scripts.engine import ExplanationEngine
 from link_prediction.models.complex import ComplEx
 from link_prediction.models.conve import ConvE
 from link_prediction.models.distmult import DistMult

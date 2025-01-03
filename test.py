@@ -1,5 +1,5 @@
 import sys, os, argparse, numpy, torch
-from dataset import Dataset, ALL_DATASET_NAMES
+from scripts.dataset import Dataset, ALL_DATASET_NAMES
 from link_prediction.evaluation.evaluation import Evaluator
 from link_prediction.models.complex import ComplEx
 from link_prediction.models.conve import ConvE

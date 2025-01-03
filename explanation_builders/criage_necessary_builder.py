@@ -1,6 +1,6 @@
 from typing import Tuple, Any
 from dataset import Dataset
-from relevance_engines.criage_engine import CriageEngine
+from scripts.criage_engine import CriageEngine
 from link_prediction.models.model import Model
 from explanation_builders.explanation_builder import NecessaryExplanationBuilder
 

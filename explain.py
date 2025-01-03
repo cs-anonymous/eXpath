@@ -12,11 +12,11 @@ sys.path.append(
     os.path.realpath(os.path.join(os.path.abspath(__file__), os.path.pardir, os.path.pardir, os.path.pardir)))
 
 import yaml
-from dataset import ALL_DATASET_NAMES, Dataset
-from kelpie import Kelpie
-from eXpath import eXpath
-from data_poisoning import DataPoisoning
-from criage import Criage
+from scripts.dataset import ALL_DATASET_NAMES, Dataset
+from scripts.kelpie import Kelpie
+from scripts.eXpath import eXpath
+from scripts.data_poisoning import DataPoisoning
+from scripts.criage import Criage
 from link_prediction.models.complex import ComplEx
 from link_prediction.models.conve import ConvE
 from link_prediction.models.transe import TransE
